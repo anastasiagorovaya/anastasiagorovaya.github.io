@@ -1,9 +1,9 @@
-##Git Chocolate??
+##Git Chocolate?
 # Intro to understanding Git
 ### May 27
 
 **Have you ever made a shopping list?**
-If your answer to this question is "yes" then you are more than half way to understanding what **version control** is! If you have never made a grocery shopping list, we are going to make one right now using git. 
+If your answer is "yes" then you are more than halfway to understanding what **version control** is! If you have never made a grocery shopping list, we are going to make one right now using git. 
 
 Step 1. 
 You take a blank piece of paper = You are initiating your first **git repository** 

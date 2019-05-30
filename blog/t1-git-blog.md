@@ -1,5 +1,5 @@
-##Git milk??
-## Intro to understanding Git
+##Git Chocolate??
+# Intro to understanding Git
 ### May 27
 
 **Have you ever made a shopping list?**

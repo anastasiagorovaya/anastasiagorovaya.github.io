@@ -41,7 +41,7 @@ Throughout the day you keep adding more and more items to this list and each tim
 
 The technical term for the chronological chain of versions of your shopping list is **branch**, your main branch is called **master branch**
 
-Imagine now that you are making a shopping list for the upcoming trip with your friends Katherine and George, and you are the one to **finalize** the shopping list and go to a grocery store. Katherine is gluten free, George is vegan. Throughout the day or week...each one of them adds something to the list, but they are not messaging you one item at a time, right? they will rather send you a complete list, that is **some version on your list + things they came up with**. Let's say Katherine startes her list. In her mental process, she first 'copies' your list and creates her own adding things she needs. This is called - creating a branch (command prompt> git branch katherinelist). Depending on  when she asked you "what's already there?" her initial version will be different.
+Imagine now that you are making a shopping list for the upcoming trip with your friends Katherine and George, and you are the one to **finalize** the shopping list and go to a grocery store. Katherine is gluten free, George is vegan. Throughout the day or week...each one of them adds something to the list, but they are not messaging you one item at a time, right? they will rather send you a complete list, that is **some version of your list + things they came up with**. Let's say Katherine starts her list. In her mental process, she first 'copies' your list and creates her own adding things she needs. This is called - creating a branch (command prompt> git branch katherinelist). Depending on  when she asked you "what's already there?" her initial version will be different.
 
 **Master (Commit #2 your list):**
 
@@ -63,13 +63,13 @@ Imagine now that you are making a shopping list for the upcoming trip with your 
 
 *rice crackers*
 
-Each one of your friends' lists is a separate branch, that develops parallel to the main list. Eventually all these lists, the very final versions of Katherine's and George's shopping lists will be **merged** into the master branch for you to go to purchase all these things. 
+Each one of your friends' lists is a separate branch, that develops parallel to the main list. Eventually all these lists, the very final versions of Katherine's and George's shopping lists will be **merged** into the master branch for you to purchase all these things. 
 
 (this is not the only way to merge!)
 
 How the merge is done: 
 
-take your list
+grab your list:
 
 command prompt> git checkout master
 
@@ -78,5 +78,6 @@ add Katherine's list
 command prompt> git merge katherineslist
 
 The merge action above creates a new commit, i.e. the chronological version of the shopping list.
+
 
 
